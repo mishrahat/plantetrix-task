@@ -40,19 +40,19 @@ export function Overlay() {
 
           <div className="flex gap-16 text-center z-20">
             <div>
-              <h3 className="text-white/60 text-sm font-semibold tracking-wider mb-2">GALAXY</h3>
+              <h3 className="font-bold text-[30px] leading-[57px] tracking-[0.01em] uppercase text-[#bdc5e2]/70 mb-2">GALAXY</h3>
               <p className="text-sm">{planet.galaxy}</p>
             </div>
             <div>
-              <h3 className="text-white/60 text-sm font-semibold tracking-wider mb-2">DIAMETER</h3>
+              <h3 className="font-bold text-[30px] leading-[57px] tracking-[0.01em] uppercase text-[#bdc5e2]/70 mb-2">DIAMETER</h3>
               <p className="text-sm">{planet.diameter}</p>
             </div>
             <div>
-              <h3 className="text-white/60 text-sm font-semibold tracking-wider mb-2">LENGTH OF DAY</h3>
+              <h3 className="font-bold text-[30px] leading-[57px] tracking-[0.01em] uppercase text-[#bdc5e2]/70 mb-2">LENGTH OF DAY</h3>
               <p className="text-sm">{planet.lengthOfDay}</p>
             </div>
             <div>
-              <h3 className="text-white/60 text-sm font-semibold tracking-wider mb-2">AVERAGE TEMPERATURE</h3>
+              <h3 className="font-bold text-[30px] leading-[57px] tracking-[0.01em] uppercase text-[#bdc5e2]/70 mb-2">AVERAGE TEMPERATURE</h3>
               <p className="text-sm">{planet.temperature}</p>
             </div>
           </div>
