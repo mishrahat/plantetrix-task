@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png'
 
 export function Footer() {
   return (
-    <footer className="absolute bottom-0 left-0 w-full p-12 flex justify-between items-end z-50 text-white/60 text-sm">
+    <footer className="bg-white/6 backdrop-blur-[1px] absolute bottom-0 left-0 w-full p-12 flex justify-between items-end z-50 text-white/60 text-sm">
       <div className="max-w-md">
         <div className="flex items-center gap-3 mb-4 opacity-50">
           

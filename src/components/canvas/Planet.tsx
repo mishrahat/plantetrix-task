@@ -48,7 +48,7 @@ export function Planet({ planet, isActive, index, activeIndex }: PlanetProps) {
   useFrame((state, delta) => {
     if (!meshRef.current || !groupRef.current) return;
  
-    const targetScale = isActive ? 2.5 : 0.001;
+    const targetScale = isActive ? 2.0 : 0.001;  
  
     let targetX = 0;
     if (!isActive) {
