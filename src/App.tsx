@@ -41,7 +41,7 @@ function App() {
   }, [setActivePlanetIndex]);
 
   return (
-    <div ref={containerRef} className="relative w-full h-screen bg-space-dark text-white overflow-hidden">
+    <div ref={containerRef} className="relative w-full h-screen bg-[linear-gradient(120.56deg,_#1D2948_-2.28%,_#141D33_21.31%,_#0F1628_33.91%,_#050A16_92.75%)] text-white overflow-hidden">
       {/* 3D Canvas Layer */}
       <Scene />
 

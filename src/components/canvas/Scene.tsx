@@ -13,9 +13,6 @@ export function Scene() {
   return (
     <div className="fixed inset-0 z-0 pointer-events-none">
       <Canvas camera={{ position: [0, 0, 8], fov: 45 }}>
-        {/* Removed solid color background since we have a CSS radial gradient on body */}
-        <ambientLight intensity={0.1} />
-        <directionalLight position={[5, 5, 5]} intensity={1} />
         
         <Suspense fallback={null}>
           <Background />
